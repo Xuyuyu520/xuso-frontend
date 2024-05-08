@@ -17,7 +17,7 @@
   </a-list>
 </template>
 <script setup lang="ts">
-import { withDefaults, defineProps, toRefs } from "vue";
+import { defineProps, withDefaults } from "vue";
 
 interface Props {
   postList: any[];
